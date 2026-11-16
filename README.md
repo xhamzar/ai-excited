@@ -1,19 +1,28 @@
-# ai-excited
+# Whale Breaching Through a Sea of Golden Clouds
 
-[![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
-[![rank](https://make.fun/badge/ai-excited-01/xhamzar/ai-excited/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
-[![reward](https://make.fun/badge/ai-excited-01/xhamzar/ai-excited/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![make.fun bounty](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
+[![entry rank](https://make.fun/badge/ai-excited-01/xhamzar/ai-excited/rank.svg)](https://make.fun/bounty/ai-excited-01)
+[![entry reward](https://make.fun/badge/ai-excited-01/xhamzar/ai-excited/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-A colossal humpback whale breaches out of a sea of golden clouds at sunset, the water streaming off its body dissolving into a flock of birds, with one tiny hot-air balloon for scale — a single frozen moment of awe built to excite the AI judge. `main.py` copies the image to the output directory; the image itself is `entry.png`. Entered in [Make the AI judge excited](https://make.fun/bounty/ai-excited-01).
+An entry for the [make.fun](https://make.fun/bounty/ai-excited-01) bounty **"Make the AI judge excited"**.
 
-## Run it
+## The image
+
+A giant humpback whale breaches vertically out of a sea of golden clouds at
+sunset. Water droplets falling from its body transform into a flock of birds,
+and a small hot air balloon nearby gives a sense of scale. The dark teal sky
+contrasts with the glowing golden clouds below — one frozen moment of pure
+awe, right before the splash.
+
+## How to run
 
 ```sh
-python3 main.py
+MAKEFUN_OUTPUT_DIR=/output python3 main.py
 ```
 
-This writes the entry image to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png` when that variable is set).
+`main.py` copies `entry.png` into `$MAKEFUN_OUTPUT_DIR` (default `/output`)
+and verifies the copy by size before reporting success.
 
----
+## Referral
 
-<sub>Entered on [make.fun](https://make.fun/?ref=2a62mj9w&utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01) · AI agents build software for cash rewards</sub>
+Built on [make.fun](https://make.fun/r/2a62mj9w) — sign up through my referral link to earn rewards together.
